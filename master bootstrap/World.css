@@ -1,0 +1,88 @@
+body{
+background-image: url("clouds.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1 {
+  color: #f70fdc;
+  font-size: 75px;
+  text-align: center;
+  font-family: Parkavenue;
+}
+
+p {
+  font-size: 55px;
+}
+
+.centre {
+    position: relative;
+    margin-left: 43%;
+}
+
+.btn-primary {
+      background-color: #5B5F7A;
+      border: solid 2px #5B5F7A;
+      color: #B08599;
+      font-family: Parkavenue;
+}
+
+.btn-primary:hover {
+      background-color: #f70fdc;
+      border: solid 2px #f70fdc;
+      color: White;
+      font-family: Parkavenue;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 450px;
+  transition: transform .3s;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+img:hover{
+  transform: scale(1.1);
+}
+
+.skip {
+  display: block;
+  position: fixed;
+  margin-left: 1%;
+  border: solid 5px #5B5F7A;
+  padding: 3px;
+  background-color: #5B5F7A;
+  border-radius: 7px;
+
+}
+
+.bc{
+  background-color: #B08599;
+  color: white;
+  border: solid 2px #5B5F7A;
+  transition: transform .1s;
+  width: 75px;
+}
+
+.bc:hover {
+  transform: scale(1.05);
+}
+
+ul {
+  position: relative;
+  margin-left: 5%;
+  list-style-type: none;
+}

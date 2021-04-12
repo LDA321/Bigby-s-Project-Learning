@@ -1,0 +1,15 @@
+body{
+     background-image: url("AlatarBG.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+  margin-left: 2px;
+  margin-right: 4px;
+}

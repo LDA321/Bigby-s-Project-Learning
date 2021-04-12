@@ -1,0 +1,123 @@
+body{
+  background-image: url("clouds.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: #f70fdc;
+  font-size: 75px;
+  text-align: center;
+  font-family: Parkavenue;
+}
+
+h2 {
+  color: #B08599;
+  text-align: left;
+  margin-left: 1%;
+}
+
+p {
+  text-align: left;
+  margin-left: 2%;
+}
+
+ul {
+  list-style: inside;
+}
+
+.centre {
+    position: relative;
+    margin-left: 41.5%;
+}
+
+.btn-primary {
+      background-color: #5B5F7A;
+      border: solid 2px #5B5F7A;
+      color: #B08599;
+      font-family: Parkavenue;
+}
+
+.btn-primary:hover {
+      background-color: #f70fdc;
+      border: solid 2px #f70fdc;
+      font-family: Parkavenue;
+}
+
+.accordion {
+  position: relative;
+  margin-left: 1%;
+  width: 500px;
+  color: #B08599;
+  border: solid 2px #5B5F7A;
+  border-radius: 6px;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  background-color: #5B5F7A;
+  border: solid 2px #5B5F7A;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.accordion-item {
+  background-color: #5B5F7A;
+  border: solid 2px #5B5F7A;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.accordion-header {
+  background-color: #5B5F7A;
+  border: solid 2px #5B5F7A;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.collapsed:focus {
+  background-color: #5B5F7A;
+  border: solid 2px #5B5F7A;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.collapse:focus {
+  background-color: #5B5F7A;
+  border: solid 2px #5B5F7A;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.show:focus {
+  background-color: #5B5F7A;
+  border: solid 2px #5B5F7A;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: #B08599;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #B08599;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #B08599;
+}
+
+.ifr {
+  position: absolute;
+  top: 245px;
+  left: 550px;
+}
+
+.ibd {
+  border: solid 7px #5B5F7A;
+  border-radius: 6px;
+}

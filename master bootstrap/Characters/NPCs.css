@@ -1,0 +1,72 @@
+body{
+     /*background-image: url("Party.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;*/
+     background-color: #5B5F7A;
+}
+
+a {
+  text-decoration: none;
+  color: #B08599;
+}
+
+a:visited, a:link {
+          color: #B08599;
+}
+
+a:hover {
+  color: #B08599;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #5B5F7A;
+}
+
+.dropdown-toggle {
+  display: block;
+  background-color: #5B5F7A;
+  color: #B08599;
+  width: 240px;
+}
+
+.btn-primary {
+      background-color: #5B5F7A;
+      border: solid 2px #5B5F7A;
+      color: #B08599;
+      font-family: Parkavenue;
+}
+
+.btn-primary:hover {
+      background-color: #f70fdc;
+      border: solid 2px #f70fdc;
+      font-family: Parkavenue;
+}
+
+.dropdown-toggle:hover {
+      background-color: #f70fdc;
+}
+
+#dropdownMenuLink {
+  background-color: #5B5F7A;
+  color: #B08599;
+}
+
+.btn-group {
+  padding: 2px;
+  margin: 1px;
+}
+
+.dropdown-menu{
+  width: 240px;
+}
+
+.dropdown-toggle:focus {
+  background-color: #5B5F7A;
+  border: solid 1px #B08599;
+  box-shadow: none !important;
+}

@@ -1,0 +1,63 @@
+/*body{
+     width: auto;
+     height: 875px;
+     background-size: 100% 100%;
+     background-image: url("Oerth.jpg");
+     background-blend-mode: color;
+}*/
+
+body {
+     background-image: url("Bigby.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: #5B5F7A;
+
+
+
+  }
+
+h1 {
+  color: #f70fdc;
+  font-size: 100px;
+  /*text-align: center;*/
+  font-family: Parkavenue;
+  position: absolute;
+  top: 27%;
+  left: 55%;
+}
+
+img {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  margin-left: 34%;
+  width: 600px;
+  height: auto;
+  transition: transform .3s;
+}
+
+img:hover{
+  transform: scale(1.2);
+}
+
+.centre {
+    position: relative;
+    margin-left: 60%;
+    margin-top: 20%;
+
+}
+
+.btn-primary {
+  background-color: #5B5F7A;
+  border: solid 2px #5B5F7A;
+  color: #B08599;
+  font-family: Parkavenue;
+
+}
+
+.btn-primary:hover {
+  background-color: #f70fdc;
+  border: solid 2px #f70fdc;
+  color: white;
+  font-family: Parkavenue;
+}

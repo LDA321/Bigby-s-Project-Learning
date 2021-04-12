@@ -1,0 +1,79 @@
+body{
+  background-image: url("clouds.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+h1 {
+  color: #f70fdc;
+  font-size: 75px;
+  text-align: center;
+  font-family: Parkavenue;
+}
+
+.center {
+  /*display: block;*/
+  margin-left: 40%;
+
+}
+iframe {
+  border: solid;
+  border-color: #f70fdc;
+  background-color: #B08599;
+}
+
+.ifrpos {
+  display: inline-block;
+  position: relative;
+  left: 23.5%;
+}
+
+a:visited {
+ text-decoration: none;
+ color:#AC7785;
+}
+
+a {
+  color: #AC7785;
+}
+
+.smll {
+  width: 225px;
+}
+
+.dflo {
+  float: left;
+}
+.centre {
+    position: relative;
+    margin-left: 43%;
+}
+
+.btn-primary {
+      background-color: #5B5F7A;
+      border: solid 2px #5B5F7A;
+      color: #B08599;
+      font-family: Parkavenue;
+}
+
+.btn-primary:hover {
+      background-color: #f70fdc;
+      border: solid 2px #f70fdc;
+      font-family: Parkavenue;
+}
+
+.dropdown-toggle {
+  background-color: #5B5F7A;
+  color: #B08599;
+}
+
+.dropdown-toggle:hover {
+      background-color: #f70fdc;
+}
+
+#dropdownMenuLink {
+  background-color: #5B5F7A;
+  color: #B08599;
+}
